@@ -1,0 +1,135 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+}
+
+.background {
+	background: #ebf5fc;
+	position: static;
+}
+
+.home-container {
+	margin-left: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 1440px;
+	margin-top: 150px;
+}
+
+.container .card {
+	width: 300px;
+	margin: 10px;
+	padding: 10px 0px;
+	background: #ebf5fc;
+	border-radius: 20px;
+	box-shadow: -6px -6px 20px rgba(255, 255, 255, 1), 6px 6px 20px
+		rgba(0, 0, 0, 0.1);
+}
+
+.container .card:hover {
+	box-shadow: inset -6px -6px 20px rgba(255, 255, 255, 1), inset 6px 6px
+		20px rgba(0, 0, 0, 0.1);
+}
+
+.container .card .imgbox {
+	text-align: center;
+}
+
+.container .card .imgbox {
+	color: #409ead;
+	font-size: 3vw;
+}
+
+.container .card .contentbox {
+	margin-top: 2px;
+	text-align: center;
+}
+
+.container .card .contentbox h2 {
+	color: #32a3b1;
+	font-weight: 600;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+}
+
+.container .card .contentbox p {
+	color: #32a3b1;
+}
+
+.container .card .contentbox a {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border-radius: 30px;
+	color: #32a3b1;
+	font-size: 16px;
+	text-decoration: none;
+	box-shadow: -4px -4px 15px rgba(255, 255, 255, 1), 4px 4px 15px
+		rgba(0, 0, 0, 0.1);
+}
+
+.container .card .contentbox a:hover {
+	box-shadow: inset -4px -4px 15px rgba(255, 255, 255, 0.5), inset 4px 4px
+		15px rgba(0, 0, 0, 0.1);
+}
+
+.container .card .contentbox a:hover span {
+	display: block;
+	transform: scale(0.98);
+}
+
+.container .card:hover .imgbox, .container .card:hover .contentbox {
+	display: block;
+}
+
+/* header */
+.header {
+	position: fixed;
+	background: #ebecf0;
+	width: 100%;
+	height: 130px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-between;
+}
+
+.log-reg {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	justify-items: flex-start;
+}
+
+.logo {
+	font-weight: 600;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 0;
+	color: black;
+}
+
+.welcome {
+	padding-top: 40px;
+	text-align: center;
+	color: black;
+	font: 10px;
+}
+
+.img {
+	width: 90%;
+	height: 60%;
+	border-radius: 10px;
+}
